@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Search{% endblock %}
+
+{% block custom_header %}
+    <style type="text/css">
+        /* Page specific styles can go here */
+    </style>
+{% endblock %}
+
+{% block before_body_content %}
+{% endblock %}
+
+{% block content %}
+    {% if query_return %}
+    <div>Your query was "{{ query_return }}"</div>
+    {% endif %}
+{% endblock %}
+
+{% block after_body_content %}
+{% endblock %}
+
+{% block custom_footer %}
+{% endblock %}

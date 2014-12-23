@@ -1,0 +1,60 @@
+/* Boilerplate Additions
+-------------------------------------------------- */
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style:italic;
+}
+.underline{
+    text-decoration:underline;
+}
+.clear{
+    height:1em;
+    width:100%;
+    clear:both;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+
+
+/* Bootstrap overrides
+-------------------------------------------------- */
+body {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive break point for viewports at 640 pixel width or less
+-------------------------------------------------- */
+@media only screen and (max-width:640px){
+
+}
