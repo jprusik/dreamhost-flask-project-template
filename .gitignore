@@ -1,0 +1,6 @@
+.htaccess
+.DS_Store
+
+config.py
+*.pyc
+*.log
