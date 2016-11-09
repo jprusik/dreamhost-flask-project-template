@@ -1,8 +1,9 @@
 from flask import Flask, url_for, redirect, request, Markup, render_template, session, flash
 import json, datetime
+import config
 
 app = Flask(__name__)
-app.config.from_object('app.config')
+app.config.from_object('config')
 
 # DISABLE DEBUG FOR PRODUCTION!
 app.debug = False
@@ -63,3 +64,6 @@ def internal_server_error(error):
 # @app.route('/pyversion')
 # def pyversion():
 #     return sys.version
+
+if __name__ == '__main__':
+    app.run()
