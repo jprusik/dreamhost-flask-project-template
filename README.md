@@ -44,7 +44,6 @@ Installation
     virtualenv env/wsgi
     ```
 4. Install python libraries
-5.
   ```
   source ~/env/wsgi/bin/activate
   pip install Flask
